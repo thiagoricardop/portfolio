@@ -59,17 +59,18 @@ html{
     display: inline-block;
 }
 .navbar .menu li a{
-    color: #fff;
+    color: #09e832;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
-.navbar .menu li a{
-    color: #09e832;
-}
+
 .navbar.sticky .menu li a{
-    color: #09e832;
+    color: rgb(0, 0, 0);
+}
+.navbar.sticky .menu.active{
+    background-color: #09e832;
 }
 
 /* sidebar*/
@@ -95,7 +96,6 @@ html{
 
 .sidebar a:hover {
     color: #ffffff;
-    
 }
 .sidebar::after{
     content: "";
@@ -544,6 +544,7 @@ footer{
     padding: 20px 23px;
     color: #fff;
     text-align: center;
+    margin-top: 0%;
 }
 footer span a{
     color: #09e832;
@@ -627,14 +628,8 @@ footer span a:hover{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-    .skills .skills-content .column,
-    .contact .contact-content .column{
-        width: 100%;
-        margin-bottom: 35px;
-    }
-    footer{
-        margin-top: 15px;
-    }
+
+    
 }
 @media (max-width: 690px){
     .home .home-content .text-2{
