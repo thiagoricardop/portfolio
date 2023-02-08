@@ -55,7 +55,7 @@ $(document).ready(function(){
       loop: true, //se vai fazer loop
       margin: 0, //espacamento entre os itens
       autoplay: true, //se vai ser automatico
-      autoplayTimeout: 2000, //tempo entre as transições 
+      autoplayTimeout: 3000, //tempo entre as transições 
   });
 });
 
