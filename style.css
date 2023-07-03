@@ -109,7 +109,7 @@ html{
 }
 
 /* ---- particles.js container ---- */
-#particles-js {
+.particles-js .particles{
     position: fixed;
     z-index: 0;
     width: 100%;
@@ -447,13 +447,17 @@ section{
 .contact .contact-content{
     text-align: center;
 }
+.contact .left{
+    align-content: center;
+}
 .contact .contact-content .left p{
+    margin-left: auto;
+    margin-right: auto;
     text-align: justify;
     font-size: 100%;
     color: rgb(167, 167, 167);
     position: relative;
-    width: 40%;
-    margin-left: 0%;
+    width: 60%;
     margin-top: 2%;
 }
 .contact .contact-content .right a{
@@ -467,6 +471,8 @@ section{
     margin-top: 2%;
     border-radius: 6px;
     border: 2px solid #09e832;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .contact .contact-content .right a:hover{
     color: #09e832;
