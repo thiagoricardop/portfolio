@@ -464,6 +464,7 @@ section{
     position: relative;
     width: 60%;
     margin-top: 2%;
+    bottom: 5%;
 }
 .contact .contact-content .right a{
     position: absolute;
@@ -594,10 +595,9 @@ footer span a:hover{
     }
     .contact .contact-content .left p{
         width: 80%;
+        bottom: 5%;
     }
-    .contact .contact-content .text{
-        padding-bottom: 4%;
-    }
+    
 
     
 }
@@ -624,10 +624,9 @@ footer span a:hover{
     }
     .contact .contact-content .left p{
         width: 80%;
+        bottom: 5%;
     }
-    .contact .contact-content .text{
-        padding-bottom: 4%;
-    }
+    
 }
 @media (max-width: 500px){
     .home .home-content .text-1 {
@@ -635,7 +634,7 @@ footer span a:hover{
         position: relative;
     }
     .home .home-content .text-2 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .home .home-content .text-3 {
         font-size: 20px;
@@ -646,6 +645,7 @@ footer span a:hover{
     }
     .contact .contact-content .left p{
         width: 80%;
+        bottom: 5%;
     }
     
 }
