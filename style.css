@@ -333,10 +333,8 @@ section{
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
-    cursor: pointer;
+    
     transition: all 0.3s ease;
-    
-    
 }
 .services .serv-content .card:hover{
     background: #09e832;
@@ -368,6 +366,7 @@ section{
     transition: all 0.3s ease;
     margin-left: -75%;
     font-size: 600%;
+    
 }
 .skills .carousel .card .box{
     display: flex;
@@ -392,6 +391,8 @@ section{
     border-radius: 6px;
     padding: 25px 35px;
     transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
 }
 .projects .carousel .card:hover{
     background: #09e832;
@@ -413,6 +414,7 @@ section{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    color:white;
 }
 .projects .carousel .card:hover .box{
     transform: scale(1.05);
@@ -421,6 +423,7 @@ section{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    
 }
 .projects .owl-dots{
     text-align: center;
@@ -467,8 +470,7 @@ section{
     color: rgb(1, 0, 0);
     font-size: 25px;
     padding: 12px 36px;
-    margin-right: 0%;
-    margin-top: 2%;
+    margin-bottom: 3%;
     border-radius: 6px;
     border: 2px solid #09e832;
     left: 50%;
@@ -483,7 +485,7 @@ section{
     font-weight: 500;
     color: #09e832;
     position: relative;
-    margin-top: 1%;
+    margin-bottom: 1%;
     
 }
 
@@ -555,11 +557,15 @@ footer span a:hover{
         margin: 20px 0;
         font-size: 25px;
     }
-    .home .home-content .text-2{
-        font-size: 70px;
+    .home .home-content .text-1 {
+        font-size: 27px;
+        position: relative;
     }
-    .home .home-content .text-3{
-        font-size: 35px;
+    .home .home-content .text-2 {
+        font-size: 60px;
+    }
+    .home .home-content .text-3 {
+        font-size: 27px;
     }
     .home .home-content a{
         font-size: 23px;
@@ -580,15 +586,29 @@ footer span a:hover{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .title{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .contact .contact-content .left p{
+        width: 80%;
+    }
+    .contact .contact-content .text{
+        padding-bottom: 4%;
+    }
 
     
 }
 @media (max-width: 690px){
-    .home .home-content .text-2{
-        font-size: 60px;
+    .home .home-content .text-1 {
+        font-size: 23px;
+        position: relative;
     }
-    .home .home-content .text-3{
-        font-size: 32px;
+    .home .home-content .text-2 {
+        font-size: 50px;
+    }
+    .home .home-content .text-3 {
+        font-size: 23px;
     }
     .home .home-content a{
         font-size: 20px;
@@ -596,13 +616,37 @@ footer span a:hover{
     .services .serv-content .card {
         width:100%;
     }
+    .title{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .contact .contact-content .left p{
+        width: 80%;
+    }
+    .contact .contact-content .text{
+        padding-bottom: 4%;
+    }
 }
 @media (max-width: 500px){
-    .home .home-content .text-2{
-        font-size: 50px;
+    .home .home-content .text-1 {
+        font-size: 20px;
+        position: relative;
     }
-    .home .home-content .text-3{
-        font-size: 27px;
+    .home .home-content .text-2 {
+        font-size: 30px;
+    }
+    .home .home-content .text-3 {
+        font-size: 20px;
+    }
+    .title{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .contact .contact-content .left p{
+        width: 80%;
+    }
+    .contact .contact-content .text{
+        padding-bottom: 4%;
     }
 }
 
