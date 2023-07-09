@@ -146,6 +146,7 @@ html{
 .home .home-content .text-1 {
     font-size: 27px;
     position: relative;
+    margin-bottom: 5%;
 }
 
 .home .home-content .text-2 {
@@ -153,6 +154,7 @@ html{
     font-weight: 500;
     margin-left: -3px;
     position: relative;
+    margin-bottom: 5%;
 }
 
 .home .home-content .text-3 {
@@ -633,21 +635,19 @@ footer span a:hover{
         position: relative;
     }
     .home .home-content .text-2 {
-        font-size: 30px;
+        font-size: 40px;
     }
     .home .home-content .text-3 {
         font-size: 20px;
     }
     .title{
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .contact .contact-content .left p{
         width: 80%;
     }
-    .contact .contact-content .text{
-        padding-bottom: 4%;
-    }
+    
 }
 
 
